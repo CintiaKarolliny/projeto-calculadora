@@ -16,7 +16,7 @@ public class Subtrair {
 
         float total = num1 - num2;
 
-        System.out.println(num1 + " - " + num2 + " = " + total);
+        System.out.println("\n" + num1 + " - " + num2 + " = " + Math.round(total * 100.0) / 100.0);
 
     }
 
