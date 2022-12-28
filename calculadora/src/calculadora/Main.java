@@ -1,10 +1,18 @@
 package calculadora;
 
+import javax.swing.*;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
+
+        JFrame frame = new JFrame("tela");
+        frame.setContentPane(new tela().panel1);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        frame.pack();
+        frame.setVisible(true);
 
         Scanner dig = new Scanner(System.in);
 
