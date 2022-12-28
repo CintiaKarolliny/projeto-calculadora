@@ -16,7 +16,16 @@ public class Main {
 
         Somar s = new Somar(num1,num2);
 
+        Subtrair sub = new Subtrair(num1,num2);
+
+        Multiplicar mult = new Multiplicar(num1,num2);
+
+        Dividir div = new Dividir(num1, num2);
+
         s.calcular();
+        sub.calcular();
+        mult.calcular();
+        div.calcular();
     }
 
 }
